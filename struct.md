@@ -1,16 +1,16 @@
 # Struct
 
 ```c
-typedef struct Rectangle {
+typedef struct rect_tag {
     int top;
     int bottom;
     int left;
     int right;
-}
+} rect_t;
 ```
 
 ```go
-type Rectangle struct {
+type rect struct {
     top int,
     top bottom,
     top left,
