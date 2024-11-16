@@ -1,5 +1,16 @@
 # Struct
 
+- Golang
+```go
+type rect struct {
+    top int,
+    top bottom,
+    top left,
+    top right,
+}
+```
+
+- C/C++
 ```c
 typedef struct rect_tag {
     int top;
@@ -9,11 +20,4 @@ typedef struct rect_tag {
 } rect_t;
 ```
 
-```go
-type rect struct {
-    top int,
-    top bottom,
-    top left,
-    top right,
-}
-```
+
